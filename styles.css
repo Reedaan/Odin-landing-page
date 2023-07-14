@@ -1,0 +1,39 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+header{
+    background-color: #1F2937;
+}
+
+.nav{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;   
+}
+
+#logo{
+    font-weight: bold;
+    display: flex;
+    margin: 1em;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 1.5em;
+    margin: 1em;
+}
+
+.right{
+    list-style-type: none;
+}
+
+.hero-container{
+    display: flex;
+    margin: 1em;
+    
+    
+}
