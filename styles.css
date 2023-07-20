@@ -1,9 +1,14 @@
 body{
     font-family: 'Roboto', sans-serif;
     
+    
+    
 }
 header{
     background-color: #1F2937;
+    padding-left: 5px;
+    padding-right: 5px;
+    
 }
 
 .nav{
@@ -17,14 +22,15 @@ header{
 #logo{
     font-weight: bold;
     display: flex;
-    margin: 1em;
+    padding-left: 20px;
+    
 }
 
 ul{
     display: flex;
     list-style-type: none;
     gap: 1.5em;
-    margin: 1em;
+    
 }
 
 .right{
@@ -33,9 +39,7 @@ ul{
 
 .hero-first-container-parent{
     color: white;
-    margin: 1em;
-    border: 1px;
-    border-style: solid;
+    
     padding: 5%;
     padding-bottom: 5em;
     display: flex;
@@ -46,14 +50,12 @@ ul{
 }
 
 .hero-second-container-parent{
-    border-style: solid;
+    
     display: flex;
-    margin: 1em;
-    border: 1px;
+    justify-content: center;
     padding: 5%;
     width: 50%;
 }
-
 
 button{
     background-color: #3882F6;
@@ -65,22 +67,77 @@ button{
     padding: 5px;
     padding-left: 15px;
     padding-right: 15px;
+    border: none;
     
 }
 
+
+
 .hero-container-main{
     color: white;
-    margin: 1em;
     border: 1px;
-    border-style: solid;
+   
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: auto;
+    
 }
 
 #test{
+    
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-shrink: 0;
+    align-self: center;
+    justify-content: center;
+    
+}
+
+.information-header-container{
+    display: flex;
+    justify-content: center;
+}
+
+#information-header-text{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: bold;
+}
+
+.main-box-subtext-container{
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.main-box-subtext-item{
     border-style: solid;
-    width: 100%;
-    height: 75%;
+    border-color: #3882F6;
+    border-radius: 10px;
+    height: auto;
+    width: auto;   
+    color: black; 
+    font-weight: bold;
+    padding: 60px;
+    
+}
+
+.main-subtext-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+        
+}
+
+.main-subtext-item-container{
+    display: flex;
+    width: 126px;
+    
     
 }
